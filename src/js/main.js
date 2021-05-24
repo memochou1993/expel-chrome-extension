@@ -10,6 +10,6 @@ document.addEventListener('keyup', () => {
 
 document.addEventListener('click', (e) => {
 	if (key === 'Meta') {
-		e.target.setAttribute('hidden', true);
+		e.target.style.display = 'none';
 	}
 }, false);
